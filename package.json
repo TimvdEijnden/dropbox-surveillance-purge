@@ -1,0 +1,15 @@
+{
+  "name": "dropbox-surveillance-purge",
+  "version": "1.0.0",
+  "description": "Folders created by Synology Surveillance Station are deleted after a certain amount of days.",
+  "main": "index.js",
+  "dependencies": {
+    "dropbox-v2-api": "^2.4.52"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tim van den Eijnden",
+  "license": "ISC"
+}
